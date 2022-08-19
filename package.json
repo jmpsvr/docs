@@ -1,0 +1,25 @@
+{
+  "name": "jmpsvr-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jmpsvr/docs",
+  "author": "JiJi <i@mmdjiji.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "dev": "vitepress dev --port 5000 --host 0.0.0.0",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "vite-plugin-components": "^0.10.4",
+    "vite-plugin-icons": "^0.6.3",
+    "vite-plugin-windicss": "^1.1.1",
+    "vitepress": "^0.14.1",
+    "windicss": "^3.1.3"
+  },
+  "dependencies": {
+    "@iconify/json": "^1.1.362",
+    "@vueuse/core": "^5.0.3"
+  }
+}
