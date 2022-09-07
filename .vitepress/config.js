@@ -54,6 +54,10 @@ function createHead() {
 function createNav() {
   return [
     {
+      text: 'API 文档',
+      link: 'https://docs.jmpsvr.com/api.html',
+    },
+    {
       text: '指南',
       link: '/guide/',
       items: [
@@ -98,8 +102,38 @@ function createSidebar() {
             text: '开始',
             link: '/guide/',
           },
+          {
+            text: '手动构建镜像',
+            link: '/guide/manual',
+          },
         ],
       },
+      {
+        text: '使用',
+        children: [
+          {
+            text: '用户管理',
+            link: '/usage/users',
+          },
+          {
+            text: '设备管理',
+            link: '/usage/devices',
+          },
+          {
+            text: '动作管理',
+            link: '/usage/actions',
+          },
+        ],
+      },
+      {
+        text: '开发',
+        children: [
+          {
+            text: '设备开发',
+            link: '/develop/common',
+          },
+        ],
+      }
     ],
   };
 }
