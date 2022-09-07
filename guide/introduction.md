@@ -17,6 +17,8 @@
 
 ![Devices](/devices.png)
 
+![Devices](/camera.png)
+
 ## 架构图
 
 ![Structure](/structure.png)
