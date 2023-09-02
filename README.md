@@ -1,6 +1,6 @@
 # jmpsvr-docs
 
-https://docs.jmpsvr.com
+https://jmpsvr.github.io/docs/
 
 ## Dev
 

@@ -4,6 +4,7 @@ import Icons, { ViteIconsResolver } from 'vite-plugin-icons';
 import Components from 'vite-plugin-components';
 
 const config: UserConfig = {
+  base: '/docs/',
   optimizeDeps: {
     exclude: ['vue-demi', '@vueuse/shared', '@vueuse/core'],
     entries: 'index.md',
