@@ -3,7 +3,7 @@
  * @type {import('vitepress').UserConfig}
  */
 module.exports = {
-  base: '/',
+  base: '/docs/',
   title: 'Jump Server',
   lang: 'zh-CN',
   description: '优雅而开源的物联网堡垒机',
